@@ -36,9 +36,9 @@ var app = {
     onDeviceReady: function() {
 		screen.orientation.lock('portrait');
 //		alert(device.uuid);
-		document.getElementById('edtuuid').value=device.uuid;
+		//document.getElementById('edtuuid').value=device.uuid;
         app.receivedEvent('deviceready');
-		document.getElementById('div_dadoslogin').innerHTML = '';
+		//document.getElementById('div_dadoslogin').innerHTML = '';
 		login();
         //var codusuario = window.localStorage.getItem("codusuario");
         //var nome = window.localStorage.getItem("uname");

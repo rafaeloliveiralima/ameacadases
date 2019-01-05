@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.gov.jbrj.acao" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Ação</name>
+<widget id="com.tempustecnologia.ameacadas" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Ameaçadas ES</name>
     <description>
-        Aplicativo consulta de lotes ações.
+        Aplicativo consulta da lista de espécies ameaçadas do estado do Espírito Santo.
     </description>
     <author email="rafaeloliveiralima@ibest.com.br" href="http://www.tempustecnologia.com">
         AÇÕES
