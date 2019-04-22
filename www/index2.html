@@ -173,7 +173,9 @@ li.lifooter a:hover:not(.active) {
 			<ul class="nav navbar-nav">
 			  <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
 			  <li><a onclick='carregaatendimento(0,0,0)'>Consulta</a></li>
+			  <li><a onclick='carregaequipe()'>Equipe</a></li>
 			  <li class='hidden'><a data-toggle="pill" href="#consatendimentofiltro">Cons. Atendimento</a></li>
+			  <li class='hidden'><a data-toggle="pill" href="#consequipe">Cons. Equipe</a></li>
 			  
 			  <li><a data-toggle="modal" data-target="#myModalSobre"><span class="glyphicon glyphicon-info"></span> Sobre</a></li>
 			</ul>
@@ -190,6 +192,97 @@ li.lifooter a:hover:not(.active) {
 			<div class="container" id='chamados'>
 			</div>
 		</div>
+		
+		
+		<div id="consequipe" class="tab-pane fade">
+			<div class="container">
+		<h2>Equipe do Projeto</h2>
+  <p>Espécies Ameaçadas do Estado do Espírito Santo</p>
+  <div class="media border p-3">
+    <img src="img/user.png" alt="Cláudio Nicolete" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Cláudio Nicolete <small><i>Bla, bla, bla</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+  </div>
+
+  <div class="media border p-3">
+    <img src="img/user.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Flávia Criatura <small><i>Bla, bla, bla</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+  </div>
+
+  <div class="media border p-3">
+    <img src="img/user.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Flávia Criatura <small><i>Bla, bla, bla</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+  </div>
+  
+  <div class="media border p-3">
+    <img src="img/user.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Flávia Criatura <small><i>Bla, bla, bla</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+  </div>
+
+  <div class="media border p-3">
+    <img src="img/user.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Juliana <small><i>Bla, bla, bla</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+  </div>
+
+  <div class="media border p-3">
+    <img src="img/user.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Mileide <small><i>Bla, bla, bla</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+  </div>
+
+  <div class="media border p-3">
+    <img src="img/user.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Ricardo <small><i>Bla, bla, bla</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+  </div>  
+
+
+  <div class="media border p-3">
+    <img src="img/user.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Júlio <small><i>Bla, bla, bla</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+  </div>  
+
+  <div class="media border p-3">
+    <img src="img/user.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Renata <small><i>Bla, bla, bla</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+  </div>    
+  
+  <div class="media border p-3">
+    <img src="img/user.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h4>Rafael <small><i>Bla, bla, bla</i></small></h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>      
+    </div>
+  </div>    
+    
+  
+  </div>
+  </div>
+		
 
 		<div id="consatendimentofiltro" class="tab-pane fade">
 			<div class="container">
@@ -203,19 +296,16 @@ li.lifooter a:hover:not(.active) {
       <button class="btn btn-success" type="button" onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'')">
         <i class="glyphicon glyphicon-search"></i>
       </button>
+
     </div>
   </div>
   <br>
-								
-								<img src='img/cr.jpg' width='30px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'CR')">
-								<img src='img/dd.jpg' width='30px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'DD')">
-								<img src='img/en.jpg' width='30px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'EN')">
-								<img src='img/es.jpg' width='30px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'ES')">
-								<img src='img/ew.jpg' width='30px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'EW')">
-								<img src='img/ex.jpg' width='30px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'EX')">
-								<img src='img/lc.jpg' width='30px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'LC')">
-								<img src='img/ne.jpg' width='30px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'NE')">
-								<img src='img/nt.jpg' width='30px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'NT')">
+								<img src='img/cr.jpg' width='45px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'CR')">
+								<img src='img/en.jpg' width='45px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'EN')">
+								<img src='img/vu.jpg' width='45px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'VU')">
+								<img src='img/nt.jpg' width='45px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'NT')">
+								<img src='img/lc.jpg' width='45px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'LC')">
+								<img src='img/dd.jpg' width='45px' onClick="getAvaliadas(document.getElementById('edtvalorfiltro').value,'DD')">
 							  </div>
                             </div>
                         </div>
@@ -223,6 +313,7 @@ li.lifooter a:hover:not(.active) {
 			</div>
 			<div class="container" id='chamadosfiltro'>
 			</div>
+			
 		</div>
 	
 		<div id="home" class="tab-pane fade in active">
@@ -293,6 +384,11 @@ li.lifooter a:hover:not(.active) {
 				//alert(filtro);
 				getChamados(idusuario,filtro,idempresa);
 		}
+		function carregaequipe() 
+		{
+				$('#myNavbar a[href="#consequipe"]').tab('show');
+		}
+
 		
 		function exitFromApp(){
 		   window.localStorage.clear();
@@ -345,6 +441,41 @@ li.lifooter a:hover:not(.active) {
                 xmlhttp.send();
                 return resultado;       
        }
+	   
+	   
+		function getMapa(div,idtaxon,idusuario)
+		{
+                var resultado = 0;
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.open("GET","http://ameacadases.com/avaliacao_app.php?idtaxon=108726&idusuario=1",true);
+                xmlhttp.onload = function (){
+					
+                    if (xmlhttp.status==200)
+                        {
+						    var str = '<iframe style="height:400px" src="http://ameacadases.com/avaliacao_app.php?idtaxon='+idtaxon+'&idusuario='+idusuario+'" id="my_iframe" frameborder="0" width="100%" height="100%"></iframe>';
+							document.getElementById(div).innerHTML=str;
+							/*alert(id);
+							if (id==0)
+							{
+							}
+							else
+							{
+								document.getElementById("chamados").innerHTML=str;
+							}
+							*/
+						}
+                    else if (xmlhttp.status == 404) {
+                        alert("Web Service doesn't work");
+                    }
+                    else
+                        {
+                            alert("Unknown erro occurred while trying insert data");
+                        }
+                };
+                xmlhttp.send();
+                return resultado;       
+       }
+	   	   
 	   
 		function alertDismissed() {
 
